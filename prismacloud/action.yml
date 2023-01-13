@@ -1,0 +1,17 @@
+runs:
+  using: "composite"
+  steps:
+    - name: Prisma Cloud image scan
+      id: scan
+      uses: PaloAltoNetworks/prisma-cloud-scan@v1
+      with:
+        pcc_console_url: ${{ inputs.PCC_CONSOLE_URL }}
+        pcc_user: ${{ inputs.PCC_USER }}
+        pcc_pass: ${{ inputs.PCC_PASS }}
+        image_name: ${{ inputs.IMAGE_NAME }}
+
+    - name: Upload SARIF file
+      if: ${{ always() }} # necessary if using failure thresholds in the image scan
+      uses: github/codeql-action/upload-sarif@v1
+      with:
+        sarif_file: ${{ steps.scan.outputs.sarif_file }}
