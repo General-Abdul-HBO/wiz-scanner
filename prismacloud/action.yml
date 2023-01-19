@@ -1,3 +1,35 @@
+
+---
+name: Scan repo with Prismacloud
+description: Perform container image using prismacloud compute (https://app3.prismacloud.io/)
+
+inputs:
+  pcc_console_url:
+    description: 'URL of your Prisma Cloud Compute Console'
+    type: string
+    required: true
+  pcc_user:
+    description: 'Username of a user with the CI user role'
+    type: string
+    required: true
+  pcc_pass:
+    description: 'Password of a user with the CI user role'
+    type: string
+    required: true
+  image_name:
+    description: 'Name (or ID) of the image to be scanned, including the tag/digest, or path to file (.tar, .tar.gz or .tgz)'
+    type: string
+    required: true
+  scan_tag:
+    description: 'Tags to mark the scan with, can be KEY or KEY=VALUE (default [])'
+    type: string
+    required: false
+    default: 'scan_env=github'
+  sarif_file:
+    description: 'File to which scan results are written in SARIF'
+    type: string
+    required: false
+
 runs:
   using: "composite"
   steps:
@@ -10,8 +42,9 @@ runs:
         pcc_pass: ${{ inputs.PCC_PASS }}
         image_name: ${{ inputs.IMAGE_NAME }}
 
-    - name: Upload SARIF file
-      if: ${{ always() }} # necessary if using failure thresholds in the image scan
-      uses: github/codeql-action/upload-sarif@v2
+    - name: Upload scan result artifact
+      uses: actions/upload-artifact@v3
+      if: success() || failure()
       with:
-        sarif_file: ${{ steps.scan.outputs.sarif_file }}
+        name: image_vunerabilities_scan_result
+        path: ${{ steps.scan.outputs.image_vunerabilities_scan_result }}
