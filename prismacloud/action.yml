@@ -33,6 +33,9 @@ inputs:
 runs:
   using: "composite"
   steps:
+    - name: result folder
+      run: mkdir result-folder
+      
     - name: Prisma Cloud image scan
       id: scan
       uses: PaloAltoNetworks/prisma-cloud-scan@v1
@@ -47,4 +50,4 @@ runs:
       if: success() || failure()
       with:
         name: image_vunerabilities_scan_result
-        path: ${{ steps.scan.outputs.image_vunerabilities_scan_result }}
+        path: ${{ steps.scan.outputs.result-folder }}
