@@ -34,8 +34,9 @@ runs:
   using: "composite"
   steps:
     - name: result folder
+      shell: bash
       run: mkdir result-folder
-      
+
     - name: Prisma Cloud image scan
       id: scan
       uses: PaloAltoNetworks/prisma-cloud-scan@v1
