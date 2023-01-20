@@ -63,7 +63,7 @@ runs:
         image_name: ${{ inputs.IMAGE_NAME }}
         enable_report: ${{ inputs.ENABLE_REPORT }}
 
-   - name: Generate Vulnerabilities Report
+    - name: Generate Vulnerabilities Report
       if: ${{ inputs.ENABLE_REPORT == 'true' }}
       id: report
       shell: bash
