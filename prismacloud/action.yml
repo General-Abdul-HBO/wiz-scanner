@@ -56,7 +56,7 @@ runs:
       id: scan
       uses: PaloAltoNetworks/prisma-cloud-scan@v1
       continue-on-error: true
-      working-directory: ${{ github.action_path }}
+      working-directory:
       with:
         pcc_console_url: ${{ inputs.PCC_CONSOLE_URL }}
         pcc_user: ${{ inputs.PCC_USER }}
