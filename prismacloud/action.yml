@@ -25,30 +25,80 @@ inputs:
     type: string
     required: false
     default: 'scan_env=github'
-  sarif_file:
-    description: 'File to which scan results are written in SARIF'
-    type: string
+  enable_report:
+    description: 'If enable, a HTML report will be created'
+    type: boolean
     required: false
+    default: false
+  report_retention_time:
+    description: >
+      Duration after which artifact will expire in days. 0 means using default retention.
+      Minimum 1 day.
+      Maximum 90 days unless changed from the repository settings page.
+    type: int
+    required: false
+    default: 0
+  exit_code:
+    description: 'Specify exit code when any security issues are found'
+    type: int
+    required: false
+    default: 1
+
+outputs:
+  PASS:
+    description: 'Whether or not prismacloud scan passed'
+    value: ${{ steps.scan.outputs.PASS }}
 
 runs:
   using: "composite"
   steps:
-    - name: result folder
-      shell: bash
-      run: mkdir result-folder
-
     - name: Prisma Cloud image scan
       id: scan
       uses: PaloAltoNetworks/prisma-cloud-scan@v1
+      continue-on-error: true
+      working-directory: ${{ github.action_path }}
       with:
         pcc_console_url: ${{ inputs.PCC_CONSOLE_URL }}
         pcc_user: ${{ inputs.PCC_USER }}
         pcc_pass: ${{ inputs.PCC_PASS }}
         image_name: ${{ inputs.IMAGE_NAME }}
+        enable_report: ${{ inputs.ENABLE_REPORT }}
 
-    - name: Upload scan result artifact
+   - name: Generate Vulnerabilities Report
+      if: ${{ inputs.ENABLE_REPORT == 'true' }}
+      id: report
+      shell: bash
+      working-directory: ${{ github.action_path }}
+      run: |
+        echo "Installing Python libraries for generating the report"
+        pip install -r requirements.txt
+        REPORT_FILE_NAME=prismacloud_scanning_results_$(date '+%m_%d_%Y').html
+        echo ""
+        echo "Generating HTML Report: $REPORT_FILE_NAME"
+        echo "REPORT_FILE_NAME=$REPORT_FILE_NAME" >>"${GITHUB_OUTPUT}"
+        python3 json2html.py -i ${{ steps.scan.outputs.OUTPUT_FILE}} -o $REPORT_FILE_NAME
+        if [ -f "$REPORT_FILE_NAME" ]; then
+            echo "FILE_CREATED=true" >>"${GITHUB_OUTPUT}"
+            echo "FILE_CREATED=true"
+        else 
+            echo "FILE_CREATED=false" >>"${GITHUB_OUTPUT}"
+            echo "FILE_CREATED=false"
+        fi
+
+    - name: Archive Vulnerabilities Report
+      if: ${{ inputs.ENABLE_REPORT == 'true' && steps.report.outputs.FILE_CREATED == 'true' }}
       uses: actions/upload-artifact@v3
-      if: success() || failure()
       with:
-        name: image_vunerabilities_scan_result
-        path: ${{ steps.scan.outputs.result-folder }}
+        name: wiz_vulnerabilities_secrets_report
+        path: ${{ github.action_path }}/${{ steps.report.outputs.REPORT_FILE_NAME }}
+        retention-days: ${{ inputs.REPORT_RETENTION_TIME }}
+
+    - name: Exit ${EXIT_CODE}, if prismacloud scan failed
+      if: ${{ steps.scan.outputs.PASS == 'false' }}
+      shell: bash
+      env:
+        exit_code: ${{ inputs.EXIT_CODE }}
+      run: |
+        echo "Wiz scan failed! Exiting with ${EXIT_CODE}." >&2
+        echo "See logs above for details." >&2
+        exit ${EXIT_CODE}
