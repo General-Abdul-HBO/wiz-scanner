@@ -75,7 +75,7 @@ runs:
         echo ""
         echo "Generating HTML Report: $REPORT_FILE_NAME"
         echo "REPORT_FILE_NAME=$REPORT_FILE_NAME" >>"${GITHUB_OUTPUT}"
-        python3 json2html.py -i ${{ steps.scan.outputs.results_file}} -o $REPORT_FILE_NAME
+        python3 json2html.py -i ${{ steps.scan.outputs.results_file }} -o $REPORT_FILE_NAME
         if [ -f "$REPORT_FILE_NAME" ]; then
             echo "FILE_CREATED=true" >>"${GITHUB_OUTPUT}"
             echo "FILE_CREATED=true"
