@@ -58,7 +58,7 @@ def get_vulnerabilities_by_type (data: dict, type: str):
                     fixedVersion = vuln.get('fixedVersion')
 
                 data_vuln = {
-                    'CVE': vuln.get('id '),
+                    'CVE': vuln.get('id'),
                     'Severity': vuln.get('severity'),
                     'CVSS': vuln.get('cvss'),
                     'Name': item.get('packageName'), 
