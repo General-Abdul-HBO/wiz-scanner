@@ -74,6 +74,7 @@ runs:
       if: ${{ inputs.ENABLE_REPORT == 'true' }}
       id: report
       shell: bash
+      working-directory: ${{ github.action_path }}
       run: |
         echo "Installing Python libraries for generating the report"
         pip install -r requirements.txt
