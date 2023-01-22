@@ -176,8 +176,8 @@ def main():
     input_file,output_file = parse_arguments()
 
     json_data = read_json(input_file)
-    vuln = get_vulnerabilities (json_data.get("result"))
-    secrets = get_secrets (json_data.get("result"))
+    vuln = get_vulnerabilities (json_data.get("results"))
+    secrets = get_secrets (json_data.get("results"))
 
     if vuln == [] and secrets == None:
         print("\nCongratulations!!! The container image does not have vulnerabilities")
