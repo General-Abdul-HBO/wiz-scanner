@@ -56,19 +56,19 @@ runs:
       id: scan
       uses: PaloAltoNetworks/prisma-cloud-scan@v1
       continue-on-error: true
-      env:
+      with:
         pcc_console_url: ${{ inputs.PCC_CONSOLE_URL }}
         pcc_user: ${{ inputs.PCC_USER }}
         pcc_pass: ${{ inputs.PCC_PASS }}
         image_name: ${{ inputs.IMAGE_NAME }}
         enable_report: ${{ inputs.ENABLE_REPORT }}
 
-    - name: Upload scan result artifact
-      uses: actions/upload-artifact@v2
-      if: success() || failure()
-      with:
-        name: iac_scan_result
-        path: ${{ steps.scan.outputs.results_file }}
+    # - name: Upload scan result artifact
+    #   uses: actions/upload-artifact@v2
+    #   if: success() || failure()
+    #   with:
+    #     name: iac_scan_result
+    #     path: ${{ steps.scan.outputs.results_file }}
 
     - name: Generate Vulnerabilities Report
       if: ${{ inputs.ENABLE_REPORT == 'true' }}
