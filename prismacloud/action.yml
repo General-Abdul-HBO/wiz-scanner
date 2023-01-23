@@ -64,7 +64,7 @@ runs:
         enable_report: ${{ inputs.ENABLE_REPORT }}
 
     - name: Upload SARIF file
-      if: ${{ inputs.ENABLE_REPORT == 'true' }} && ${{ always() }} # necessary if using failure thresholds in the image scan
+      if: ${{ inputs.ENABLE_REPORT == 'true' }} ## && ${{ always() }} # necessary if using failure thresholds in the image scan
       uses: github/codeql-action/upload-sarif@v2
       with:
         sarif_file: ${{ steps.scan.outputs.sarif_file }}
