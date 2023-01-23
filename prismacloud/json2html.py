@@ -108,7 +108,7 @@ def generate_table_figure(data:dict, table_data: list, output_file: str):
     container_image = data.get("scanOriginResource").get("name")
     scan_policies = [policy.get("name") for policy in data.get("policies")]
 
-    layout_title = "<b>Prismacloud Scanning - Image: " + container_image + "</b><br>" + "<b>Scanning policy:</b> " + str(scan_policies) + "<br>" + subtitle_result + "<br>"
+    layout_title = "<b>Prismacloud Scanning - Image: " + container_image + "</b><br>" + "<b>Scanning policy:</b> " +  "<br>" + subtitle_result + "<br>"
 
     df = pd.DataFrame.from_dict(table_data)
 
