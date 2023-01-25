@@ -4,6 +4,8 @@ import plotly.graph_objects as go
 import plotly.offline as offline
 import argparse
 
+import bs4
+
 # made a couple of changes to the original script to make it work with the new json format.
 # commented out the secrets line of code prisma doesnt scan for secrets i guess.
 # changes are a bit messy while trying to figure it out.
@@ -130,9 +132,6 @@ def set_report_title (data:dict):
     scan_results = [image.get("vulnerabilityScanPassed") for image in data.get("results")]
 
     for (image, result) in zip(container_images, scan_results):
-        print (image, result)
-        print("---")
-
         title = title + "<b> - Image: " + image + "</b>, "
 
         if result is False:
@@ -165,6 +164,24 @@ def main():
     # else:
     #     table_data = merge_vuln_secrets (vuln, secrets)
     generate_table_figure( json_data, vulns,  output_file )
+
+    # Add logo to the repo
+
+    # load the file
+    with open(output_file) as inf:
+        txt = inf.read()
+        soup = bs4.BeautifulSoup(txt, "lxml")
+
+    # # create new link
+    new_image = soup.new_tag('img', src="https://static.vecteezy.com/system/resources/previews/003/554/120/original/modern-wavy-lines-paper-cut-style-yellow-color-banner-design-free-vector.jpg", alt="W3Schools.com", style="width:1200px;height:128px;")
+    # # insert it into the document
+    soup.body.insert(0, new_image)
+    # soup.body.append(new_image)
+    
+
+    # # save the file again
+    with open(output_file, "w") as outf:
+        outf.write(str(soup))
 
 if __name__ == '__main__':
     main()
