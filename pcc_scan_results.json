@@ -1,0 +1,6207 @@
+{
+	"results": [
+		{
+			"id": "sha256:b68a472583efc83662785c5c6eb325c13b6662a3b421e7d78943e210efe3b254",
+			"name": "node:lts",
+			"distro": "Debian GNU/Linux 11 (bullseye)",
+			"distroRelease": "bullseye",
+			"digest": "sha256:d871edd5b68105ebcbfcde3fe8c79d24cbdbb30430d9bd6251c57c56c7bd7646",
+			"collections": [
+				"All",
+				"Read All Resources - Access Group (RBAC)",
+				"Test Group - Access Group (RBAC)"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "libgcrypt20",
+					"version": "1.8.7-6",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "patch",
+					"version": "2.7.6-7",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gzip",
+					"version": "1.10-4+deb11u1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.11+git20200708+dd9ef66-5",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debianutils",
+					"version": "4.11.2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2021a-1+deb11u8"
+				},
+				{
+					"type": "os",
+					"name": "xorg-sgml-doctools",
+					"version": "1:1.11-1.1"
+				},
+				{
+					"type": "os",
+					"name": "autotools-dev",
+					"version": "20180224.1+nmu1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "netbase",
+					"version": "6.3",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "adduser",
+					"version": "3.118",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pkg-config",
+					"version": "0.29.2-1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tar",
+					"version": "1.34+dfsg-1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "wget",
+					"version": "1.21-1+deb11u1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "m4",
+					"version": "1.4.18-5",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "hostname",
+					"version": "3.23",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "diffutils",
+					"version": "1:3.7-5",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20210119",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtasn1-6",
+					"version": "4.16.0-2+deb11u1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "liberror-perl",
+					"version": "0.17029-1",
+					"licenses": [
+						"Artistic or GPL-1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "grep",
+					"version": "3.6-1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debian-archive-keyring",
+					"version": "2021.1.1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ucf",
+					"version": "3.0043",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "media-types",
+					"version": "4.0.0"
+				},
+				{
+					"type": "os",
+					"name": "sensible-utils",
+					"version": "0.0.14",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "init-system-helpers",
+					"version": "1.60",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "autoconf",
+					"version": "2.69-14",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "shared-mime-info",
+					"version": "2.0-1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mawk",
+					"version": "1.3.4.20200120-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "findutils",
+					"version": "4.8.0-1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "coreutils",
+					"version": "8.32-4",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "unzip",
+					"version": "6.0-26+deb11u1"
+				},
+				{
+					"type": "os",
+					"name": "bash",
+					"version": "5.1-2+deb11u1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "hicolor-icon-theme",
+					"version": "0.17-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debconf",
+					"version": "1.5.77",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.7-1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "base-files",
+					"version": "11.1+deb11u6",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "base-passwd",
+					"version": "3.5.51",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.7.3-1",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libbsd",
+					"version": "0.11.3-1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "acl",
+					"version": "2.2.53-10",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "fribidi",
+					"version": "1.0.8-2+deb11u1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openjpeg2",
+					"version": "2.4.0-3",
+					"licenses": [
+						"BSD-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "liblqr",
+					"version": "0.4.2-2.1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxrender",
+					"version": "1:0.9.10-1"
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.3-6",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite3",
+					"version": "3.34.1-3",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dpkg",
+					"version": "1.20.12",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "db-defaults",
+					"version": "5.3.1+nmu1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tiff",
+					"version": "4.2.0-1+deb11u1"
+				},
+				{
+					"type": "os",
+					"name": "libwebp",
+					"version": "0.6.1-2.1",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apt",
+					"version": "2.2.4",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pinentry",
+					"version": "1.1.0-4",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcb",
+					"version": "1.14-3"
+				},
+				{
+					"type": "os",
+					"name": "fonts-dejavu",
+					"version": "2.37-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "python3.9",
+					"version": "3.9.2-1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libunistring",
+					"version": "0.9.10-4",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.11.dfsg-2+deb11u2"
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.31-13+deb11u5",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libde265",
+					"version": "1.0.8-1",
+					"licenses": [
+						"LGPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libassuan",
+					"version": "2.5.3-7.1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.2+20201114-2",
+					"licenses": [
+						"MIT/X11"
+					]
+				},
+				{
+					"type": "os",
+					"name": "elfutils",
+					"version": "0.183-1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openexr",
+					"version": "2.5.4-2+deb11u1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apr-util",
+					"version": "1.6.1-5",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxau",
+					"version": "1:1.0.9-1"
+				},
+				{
+					"type": "os",
+					"name": "gdk-pixbuf",
+					"version": "2.42.2+dfsg-1+deb11u1",
+					"licenses": [
+						"LGPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "freetype",
+					"version": "2.10.4+dfsg-1+deb11u1",
+					"licenses": [
+						"GPL-2+ or FTL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libheif",
+					"version": "1.11.0-1",
+					"licenses": [
+						"LGPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "attr",
+					"version": "1:2.4.48-6",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "utf8proc",
+					"version": "2.5.0-1"
+				},
+				{
+					"type": "os",
+					"name": "libfido2",
+					"version": "1.6.0-2",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "serf",
+					"version": "1.3.9-10",
+					"licenses": [
+						"Apache"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnutls28",
+					"version": "3.7.1-5+deb11u2",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "aom",
+					"version": "1.0.0.errata1-3",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pam",
+					"version": "1.4.0-9+deb11u1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "jbigkit",
+					"version": "2.1-3.1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libx11",
+					"version": "2:1.7.2-1"
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "1:4.4.18-4"
+				},
+				{
+					"type": "os",
+					"name": "expat",
+					"version": "2.2.10-2+deb11u5",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libseccomp",
+					"version": "2.5.1-1+deb11u1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libice",
+					"version": "2:1.0.10-1"
+				},
+				{
+					"type": "os",
+					"name": "isl",
+					"version": "0.23-1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsm",
+					"version": "2:1.2.3-1"
+				},
+				{
+					"type": "os",
+					"name": "mysql-defaults",
+					"version": "1.0.7",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lsb",
+					"version": "11.1.0",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "fftw3",
+					"version": "3.3.8-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pango1.0",
+					"version": "1.46.2-3",
+					"licenses": [
+						"LGPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "perl",
+					"version": "5.32.1-4+deb11u2",
+					"licenses": [
+						"GPL-1+ or Artistic"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.38-2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "harfbuzz",
+					"version": "2.7.4-1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "icu",
+					"version": "67.1-7"
+				},
+				{
+					"type": "os",
+					"name": "procps",
+					"version": "2:3.3.17-5",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxslt",
+					"version": "1.1.34-4+deb11u1"
+				},
+				{
+					"type": "os",
+					"name": "libtirpc",
+					"version": "1.3.1-1+deb11u1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "npth",
+					"version": "1.6-3",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libevent",
+					"version": "2.1.12-stable-1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libedit",
+					"version": "3.1-20191231-2",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "keyutils",
+					"version": "1.6.1-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "shadow",
+					"version": "1:4.8.1-1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gobject-introspection",
+					"version": "1.66.1-1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "djvulibre",
+					"version": "3.5.28-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxext",
+					"version": "2:1.3.3-1.1"
+				},
+				{
+					"type": "os",
+					"name": "gcc-defaults",
+					"version": "1.190",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cairo",
+					"version": "1.16.0-5",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap-ng",
+					"version": "0.7.9-2.2",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libselinux",
+					"version": "3.1-3",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xxhash",
+					"version": "0.8.0-2",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "audit",
+					"version": "1:3.0-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdatrie",
+					"version": "0.2.13-1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpthread-stubs",
+					"version": "0.4-1"
+				},
+				{
+					"type": "os",
+					"name": "libmd",
+					"version": "1.0.3-3",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libyaml",
+					"version": "0.2.2-1"
+				},
+				{
+					"type": "os",
+					"name": "libsemanage",
+					"version": "3.1-1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dav1d",
+					"version": "0.7.1-3",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.23.22-1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "postgresql-13",
+					"version": "13.9-0+deb11u1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "1.1.1n-0+deb11u3"
+				},
+				{
+					"type": "os",
+					"name": "libxdmcp",
+					"version": "1:1.1.2-3"
+				},
+				{
+					"type": "os",
+					"name": "rtmpdump",
+					"version": "2.4+20151223.gitfa8646d.1-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libnsl",
+					"version": "1.3.0-2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xorgproto",
+					"version": "2020.1-1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mercurial",
+					"version": "5.6.1-4",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre3",
+					"version": "2:8.39-13"
+				},
+				{
+					"type": "os",
+					"name": "libsigsegv",
+					"version": "2.13-1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtool",
+					"version": "2.4.6-15",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-4",
+					"licenses": [
+						"BSD-variant"
+					]
+				},
+				{
+					"type": "os",
+					"name": "util-linux",
+					"version": "2.36.1-8+deb11u1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lcms2",
+					"version": "2.12~rc1-2",
+					"licenses": [
+						"MIT and GPL-3 (GPL-3 for the fast_float plugin only)"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mpdecimal",
+					"version": "2.5.1-1",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.3.0-5",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mariadb-10.5",
+					"version": "1:10.5.18-0+deb11u1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5",
+					"version": "1.18.3-6+deb11u3",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libthai",
+					"version": "0.1.28-3",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "brotli",
+					"version": "1.0.9-2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-10",
+					"version": "10.2.1-6",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cyrus-sasl2",
+					"version": "2.1.27+dfsg-2.1+deb11u1",
+					"licenses": [
+						"BSD-4-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssh",
+					"version": "1:8.4p1-5+deb11u1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "x265",
+					"version": "3.4-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "python3-defaults",
+					"version": "3.9.2-3"
+				},
+				{
+					"type": "os",
+					"name": "libsepol",
+					"version": "3.1-1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lzo2",
+					"version": "2.10-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "linux",
+					"version": "5.10.158-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "e2fsprogs",
+					"version": "1.46.2-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xz-utils",
+					"version": "5.2.5-2.1~deb11u1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "file",
+					"version": "1:5.39-3",
+					"licenses": [
+						"BSD-2-Clause-alike"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcbor",
+					"version": "0.5.0+dfsg-2",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pixman",
+					"version": "0.40.0-1.1~deb11u1"
+				},
+				{
+					"type": "os",
+					"name": "xorg",
+					"version": "1:7.7+22",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nghttp2",
+					"version": "1.43.0-1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libssh2",
+					"version": "1.9.0-2",
+					"licenses": [
+						"BSD3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gmp",
+					"version": "2:6.2.1+dfsg-1+deb11u1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libexif",
+					"version": "0.6.22-3",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "systemd",
+					"version": "247.3-7+deb11u1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "automake-1.16",
+					"version": "1:1.16.3-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libmaxminddb",
+					"version": "1.5.2-1",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "graphite2",
+					"version": "1.3.14-1",
+					"licenses": [
+						"LGPL-2.1+ or MPL-1.1 or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre2",
+					"version": "10.36-2+deb11u1"
+				},
+				{
+					"type": "os",
+					"name": "libpsl",
+					"version": "0.21.0-1.2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "numactl",
+					"version": "2.0.12-1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openldap",
+					"version": "2.4.57+dfsg-3+deb11u1"
+				},
+				{
+					"type": "os",
+					"name": "subversion",
+					"version": "1.14.1-3+deb11u1",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "fontconfig",
+					"version": "2.13.1-4.2"
+				},
+				{
+					"type": "os",
+					"name": "curl",
+					"version": "7.74.0-1.3+deb11u3",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lz4",
+					"version": "1.9.3-2",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sysvinit",
+					"version": "2.96-7+deb11u1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxml2",
+					"version": "2.9.10+dfsg-6.7+deb11u3",
+					"licenses": [
+						"MIT-1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apr",
+					"version": "1.7.0-6+deb11u1",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-9",
+					"version": "9.3.0-22",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libksba",
+					"version": "1.5.0-3+deb11u2",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ilmbase",
+					"version": "2.5.4-1"
+				},
+				{
+					"type": "os",
+					"name": "gnupg2",
+					"version": "2.2.27-2+deb11u2",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cdebconf",
+					"version": "0.260"
+				},
+				{
+					"type": "os",
+					"name": "libxt",
+					"version": "1:1.2.0-1"
+				},
+				{
+					"type": "os",
+					"name": "libzstd",
+					"version": "1.4.8+dfsg-2.1",
+					"licenses": [
+						"BSD-3-clause and GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xtrans",
+					"version": "1.4.0-1"
+				},
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "8.1-1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "python3-stdlib-extensions",
+					"version": "3.9.2-1"
+				},
+				{
+					"type": "os",
+					"name": "librsvg",
+					"version": "2.50.3+dfsg-1",
+					"licenses": [
+						"LGPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg1-0.8"
+				},
+				{
+					"type": "os",
+					"name": "mpclib3",
+					"version": "1.2.0-1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gdbm",
+					"version": "1.19-2",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "imagemagick",
+					"version": "8:6.9.11.60+dfsg-1.3",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glib2.0",
+					"version": "2.66.8-1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "binutils",
+					"version": "2.35.2-2",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpng1.6",
+					"version": "1.6.37-3",
+					"licenses": [
+						"GPL-2+ or BSD-like-with-advertising-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libjpeg-turbo",
+					"version": "1:2.0.6-4",
+					"licenses": [
+						"BSD-BY-LC-NE"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libwmf",
+					"version": "0.2.8.4-17",
+					"licenses": [
+						"LGPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "make-dfsg",
+					"version": "4.3-4.1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "git",
+					"version": "1:2.30.2-1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mpfr4",
+					"version": "4.1.0-3",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdeflate",
+					"version": "1.7-1"
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-conflict-json",
+					"version": "2.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/parse-conflict-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tiny-relative-date",
+					"version": "1.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tiny-relative-date",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/git",
+					"version": "3.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/git",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chownr",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/chownr",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clean-stack",
+					"version": "2.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/clean-stack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "imurmurhash",
+					"version": "0.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/imurmurhash",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-parse-even-better-errors",
+					"version": "2.3.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/json-parse-even-better-errors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-buffer",
+					"version": "5.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/safe-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@isaacs/string-locale-compare",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clone",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/clone",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debuglog",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debuglog",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-core-module",
+					"version": "2.10.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-core-module",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-cache-semantics",
+					"version": "4.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/http-cache-semantics",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff",
+					"version": "5.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "10.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/package-json",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tootallnate/once",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@tootallnate/once",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "archy",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/archy",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bin-links",
+					"version": "3.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/bin-links",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-bundled",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-bundled",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "postcss-selector-parser",
+					"version": "6.0.10",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/postcss-selector-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-exceptions",
+					"version": "2.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-exceptions",
+					"licenses": [
+						"CC-BY-3.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "corepack",
+					"version": "0.15.2",
+					"path": "/usr/local/lib/node_modules/corepack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agentkeepalive",
+					"version": "4.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/agentkeepalive",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "delegates",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/delegates",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-package-data",
+					"version": "4.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/normalize-package-data",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "smart-buffer",
+					"version": "4.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/smart-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/promise-spawn",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmexec",
+					"version": "4.0.14",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmexec",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-sized",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-sized",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pacote",
+					"version": "13.6.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/pacote",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-inflight",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "negotiator",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/negotiator",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "opener",
+					"version": "1.5.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/opener",
+					"licenses": [
+						"(WTFPL OR MIT)"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readdir-scoped-modules",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/readdir-scoped-modules",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agent-base",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/agent-base",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aggregate-error",
+					"version": "3.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/aggregate-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aproba",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/aproba",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-convert",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-convert",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-fullwidth-code-point",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-fullwidth-code-point",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-ansi",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/strip-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-flag",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "infer-owner",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/infer-owner",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "3.6.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks-proxy-agent",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/socks-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "console-control-strings",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/console-control-strings",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npmlog",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tar",
+					"version": "6.1.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tar",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yarn",
+					"version": "1.22.19",
+					"path": "/opt/yarn-v1.22.19",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/disparity-colors",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/disparity-colors",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/node-gyp",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/node-gyp",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-normalize-package-bin",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/npm-normalize-package-bin",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "16.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-json-stream",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-json-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-package-arg",
+					"version": "9.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-package-arg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-retry",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/ci-detect",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/ci-detect",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/name-from-folder",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/name-from-folder",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "4.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "depd",
+					"version": "1.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/depd",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmfund",
+					"version": "3.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmfund",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ssri",
+					"version": "9.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ssri",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-pipeline",
+					"version": "1.2.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-pipeline",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "qrcode-terminal",
+					"version": "0.12.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/qrcode-terminal",
+					"licenses": [
+						"Apache 2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "rimraf",
+					"version": "3.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/arborist",
+					"version": "5.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-bundled",
+					"version": "1.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents/node_modules/npm-bundled",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/map-workspaces",
+					"version": "2.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/map-workspaces",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cssesc",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cssesc",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "function-bind",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/function-bind",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string-width",
+					"version": "4.2.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/string-width",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "builtins",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/builtins",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "8.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-user-validate",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-user-validate",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "once",
+					"version": "1.4.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/once",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wide-align",
+					"version": "1.1.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wide-align",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "graceful-fs",
+					"version": "4.2.10",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/graceful-fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promzard",
+					"version": "0.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promzard",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json-fast",
+					"version": "2.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json-fast",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string_decoder",
+					"version": "1.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/string_decoder",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wcwidth",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wcwidth",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/config",
+					"version": "4.2.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/config",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inherits",
+					"version": "2.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/inherits",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ini",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ini",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "5.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-profile",
+					"version": "6.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-profile",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-all-reject-late",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-all-reject-late",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/move-file",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/move-file",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/query",
+					"version": "1.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/query",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "balanced-match",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/balanced-match",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "2.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minizlib",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minizlib",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "proc-log",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/proc-log",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-init",
+					"version": "0.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promzard/example/npm-init",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "diff",
+					"version": "5.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/diff",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs.realpath",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fs.realpath",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "isexe",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/isexe",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmsearch",
+					"version": "5.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmsearch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmversion",
+					"version": "3.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmversion",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "treeverse",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/treeverse",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-pick-manifest",
+					"version": "7.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "indent-string",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/indent-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-lambda",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-lambda",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmhook",
+					"version": "8.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmhook",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpublish",
+					"version": "6.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpublish",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-audit-report",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-audit-report",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read",
+					"version": "1.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json",
+					"version": "5.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@gar/promisify",
+					"version": "1.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@gar/promisify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "4.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "asap",
+					"version": "2.0.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/asap",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "binary-extensions",
+					"version": "2.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/binary-extensions",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hosted-git-info",
+					"version": "5.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/hosted-git-info",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "retry",
+					"version": "0.12.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-correct",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-correct",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "7.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "write-file-atomic",
+					"version": "4.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/write-file-atomic",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cmd-shim",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-stringify-nice",
+					"version": "1.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/json-stringify-nice",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "7.13.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mute-stream",
+					"version": "0.0.8",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mute-stream",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrappy",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrappy",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yallist",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/yallist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-name",
+					"version": "1.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-name",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "concat-map",
+					"version": "0.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/concat-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "init-package-json",
+					"version": "3.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/init-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "jsonparse",
+					"version": "1.3.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/jsonparse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp-infer-owner",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mkdirp-infer-owner",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "common-ancestor-path",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/common-ancestor-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "humanize-ms",
+					"version": "1.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/humanize-ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmorg",
+					"version": "4.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmorg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "2.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "text-table",
+					"version": "0.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/text-table",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ip",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip-regex",
+					"version": "4.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ip-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-cidr",
+					"version": "4.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-cidr",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/metavuln-calculator",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/run-script",
+					"version": "4.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "8.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "iconv-lite",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/iconv-lite",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ignore-walk",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ignore-walk",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmteam",
+					"version": "4.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmteam",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-gyp",
+					"version": "9.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-packlist",
+					"version": "5.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-packlist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "7.2.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks",
+					"version": "2.7.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/socks",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-flush",
+					"version": "1.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-flush",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-license",
+					"version": "3.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "walk-up-path",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/walk-up-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "env-paths",
+					"version": "2.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/env-paths",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fastest-levenshtein",
+					"version": "1.0.12",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fastest-levenshtein",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "4.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "3.3.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-regex",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-collect",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-collect",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-name",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-expression-parse",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-expression-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "2.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/installed-package-contents",
+					"version": "1.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cidr-regex",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cidr-regex",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-table3",
+					"version": "0.6.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-table3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpack",
+					"version": "4.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpack",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-cmd-shim",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "7.3.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-columns",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-columns",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-unicode",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has-unicode",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inflight",
+					"version": "1.0.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "1.1.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-normalize-package-bin",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-normalize-package-bin",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-license-ids",
+					"version": "3.0.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-license-ids",
+					"licenses": [
+						"CC0-1.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "columnify",
+					"version": "1.6.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/columnify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff-apply",
+					"version": "5.4.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff-apply",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmaccess",
+					"version": "6.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmaccess",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-registry-fetch",
+					"version": "13.3.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "set-blocking",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/set-blocking",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm",
+					"version": "8.19.3",
+					"path": "/usr/local/lib/node_modules/npm",
+					"licenses": [
+						"Artistic-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@colors/colors",
+					"version": "1.5.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@colors/colors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-support",
+					"version": "1.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-support",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "4.3.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "dezalgo",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/dezalgo",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mkdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "encoding",
+					"version": "0.1.13",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/encoding",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "https-proxy-agent",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/https-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmdiff",
+					"version": "4.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmdiff",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "defaults",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/defaults",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-map",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/p-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-is-absolute",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/path-is-absolute",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safer-buffer",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/safer-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "signal-exit",
+					"version": "3.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/signal-exit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "util-deprecate",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/util-deprecate",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debug/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "3.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-install-checks",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-install-checks",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-call-limit",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-call-limit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "python",
+					"name": "mercurial",
+					"version": "5.6.1",
+					"licenses": [
+						"GNU GPLv2 or any later version"
+					]
+				}
+			],
+			"applications": [
+				{
+					"name": "python",
+					"version": "3.9.2",
+					"path": "/usr/bin/python3.9"
+				},
+				{
+					"name": "node",
+					"version": "18.13.0",
+					"path": "/usr/local/bin/node"
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.3.1 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2022-32221",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "When doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously was used to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the subsequent `POST` request. The problem exists in the logic for a reused handle when it is changed from a PUT to a POST.",
+					"severity": "critical",
+					"packageName": "curl",
+					"packageVersion": "7.74.0-1.3+deb11u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-32221",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Critical severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-12-05T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:10Z"
+				},   
+				{
+					"id": "CVE-2021-30475",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "aom_dsp/noise_model.c in libaom in AOMedia before 2021-03-24 has a buffer overflow.",
+					"severity": "critical",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-30475",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Critical severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-06-04T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-30474",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "aom_dsp/grain_table.c in libaom in AOMedia before 2021-03-30 has a use-after-free.",
+					"severity": "critical",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-30474",
+					"riskFactors": [
+						"Attack vector: network",
+						"Critical severity",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-06-02T17:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-30473",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "aom_image.c in libaom in AOMedia before 2021-04-07 frees memory that is not located on the heap.",
+					"severity": "critical",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-30473",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Critical severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-05-06T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3970",
+					"status": "open",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "A vulnerability was found in LibTIFF. It has been classified as critical. This affects the function TIFFReadRGBATileExt of the file libtiff/tif_getimage.c. The manipulation leads to integer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The name of the patch is 227500897dfb07fb7d27f7aa570050e62617e3be. It is recommended to apply a patch to fix this issue. The identifier VDB-213549 was assigned to this vulnerability.",
+					"severity": "high",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3970",
+					"riskFactors": [
+						"Attack vector: network",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-13T08:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-0478",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "In extend_frame_lowbd of restoration.c, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-11Android ID: A-150780418",
+					"severity": "high",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-0478",
+					"riskFactors": [
+						"Attack complexity: low",
+						"High severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2020-12-15T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43551",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "A vulnerability exists in curl \u003c7.87.0 HSTS check that could be bypassed to trick it to keep using HTTP. Using its HSTS support, curl can be instructed to use HTTPS instead of using an insecure clear-text HTTP step even when HTTP is provided in the URL. However, the HSTS mechanism could be bypassed if the host name in the given URL first uses IDN characters that get replaced to ASCII counterparts as part of the IDN conversion. Like using the character UTF-8 U+3002 (IDEOGRAPHIC FULL STOP) instead of the common ASCII full stop (U+002E) `.`. Then in a subsequent request, it does not detect the HSTS state and makes a clear text transfer. Because it would store the info IDN encoded but look for it IDN decoded.",
+					"severity": "high",
+					"packageName": "curl",
+					"packageVersion": "7.74.0-1.3+deb11u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43551",
+					"riskFactors": [
+						"Attack vector: network",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-12-23T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:10Z"
+				},
+				{
+					"id": "CVE-2022-42916",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "In curl before 7.86.0, the HSTS check could be bypassed to trick it into staying with HTTP. Using its HSTS support, curl can be instructed to use HTTPS directly (instead of using an insecure cleartext HTTP step) even when HTTP is provided in the URL. This mechanism could be bypassed if the host name in the given URL uses IDN characters that get replaced with ASCII counterparts as part of the IDN conversion, e.g., using the character UTF-8 U+3002 (IDEOGRAPHIC FULL STOP) instead of the common ASCII full stop of U+002E (.). The earliest affected version is 7.77.0 2021-05-26.",
+					"severity": "high",
+					"packageName": "curl",
+					"packageVersion": "7.74.0-1.3+deb11u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-42916",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-29T02:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:10Z"
+				},
+				{
+					"id": "CVE-2022-27385",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An issue in the component Used_tables_and_const_cache::used_tables_and_const_cache_join of MariaDB Server v10.7 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.",
+					"severity": "high",
+					"packageName": "mariadb-10.5",
+					"packageVersion": "1:10.5.18-0+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-27385",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-12T20:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43253",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_unweighted_pred_16_fallback in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43253",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43252",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_epel_16_fallback in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43252",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43250",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_qpel_0_0_fallback_16 in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43250",
+					"riskFactors": [
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43249",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_epel_hv_fallback\u003cunsigned short\u003e in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43249",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43248",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_weighted_pred_avg_16_fallback in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43248",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43245",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a segmentation violation via apply_sao_internal\u003cunsigned short\u003e in sao.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43245",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43244",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_qpel_fallback\u003cunsigned short\u003e in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43244",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43243",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via ff_hevc_put_weighted_pred_avg_8_sse in sse-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43243",
+					"riskFactors": [
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43242",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via mc_luma\u003cunsigned char\u003e in motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43242",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43241",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain an unknown crash via ff_hevc_put_hevc_qpel_v_3_8_sse in sse-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43241",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43240",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via ff_hevc_put_hevc_qpel_h_2_v_1_sse in sse-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43240",
+					"riskFactors": [
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43239",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via mc_chroma\u003cunsigned short\u003e in motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43239",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43238",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain an unknown crash via ff_hevc_put_hevc_qpel_h_3_v_3_sse in sse-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43238",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43237",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a stack-buffer-overflow vulnerability via void put_epel_hv_fallback\u003cunsigned short\u003e in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43237",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43236",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a stack-buffer-overflow vulnerability via put_qpel_fallback\u003cunsigned short\u003e in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43236",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43235",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via ff_hevc_put_hevc_epel_pixels_8_sse in sse-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+					"severity": "medium",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43235",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-02T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3627",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF 4.4.0 has an out-of-bounds write in _TIFFmemcpy in libtiff/tif_unix.c:346 when called from extractImageSection, tools/tiffcrop.c:6860, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit 236b7191.",
+					"severity": "medium",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3627",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-21T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3626",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF 4.4.0 has an out-of-bounds write in _TIFFmemset in libtiff/tif_unix.c:340 when called from processCropSelections, tools/tiffcrop.c:7619, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit 236b7191.",
+					"severity": "medium",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3626",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-21T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3599",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF 4.4.0 has an out-of-bounds read in writeSingleSection in tools/tiffcrop.c:7345, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit e8131125.",
+					"severity": "medium",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3599",
+					"riskFactors": [
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-21T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3598",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF 4.4.0 has an out-of-bounds write in extractContigSamplesShifted24bits in tools/tiffcrop.c:3604, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit cfbb883b.",
+					"severity": "medium",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3598",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-21T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3597",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF 4.4.0 has an out-of-bounds write in _TIFFmemcpy in libtiff/tif_unix.c:346 when called from extractImageSection, tools/tiffcrop.c:6826, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit 236b7191.",
+					"severity": "medium",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3597",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-21T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3570",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Multiple heap buffer overflows in tiffcrop.c utility in libtiff library Version 4.4.0 allows attacker to trigger unsafe or out of bounds memory access via crafted TIFF image file which could result into application crash, potential information disclosure or any other context-dependent impact",
+					"severity": "medium",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3570",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-21T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1253",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "Heap-based Buffer Overflow in GitHub repository strukturag/libde265 prior to and including 1.0.8. The fix is established in commit 8e89fe0e175d2870c39486fdd09250b230ec10b8 but does not yet belong to an official release.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1253",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-06T12:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-29921",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "In Python before 3,9,5, the ipaddress library mishandles leading zero characters in the octets of an IP address string. This (in some situations) allows attackers to bypass access control that is based on IP addresses.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-29921",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-05-06T13:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2019-8457",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "SQLite3 from 3.6.0 to and including 3.27.2 is vulnerable to heap out-of-bound read in the rtreenode() function when handling invalid rtree tables.",
+					"severity": "low",
+					"packageName": "db5.3",
+					"packageVersion": "5.3.28+dfsg1-0.8",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-8457",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-05-30T16:29:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2022-39260",
+					"status": "open",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "Git is an open source, scalable, distributed revision control system. `git shell` is a restricted login shell that can be used to implement Git\\'s push/pull functionality via SSH. In versions prior to 2.30.6, 2.31.5, 2.32.4, 2.33.5, 2.34.5, 2.35.5, 2.36.3, and 2.37.4, the function that splits the command arguments into an array improperly uses an `int` to represent the number of entries in the array, allowing a malicious actor to intentionally overflow the return value, leading to arbitrary heap writes. Because the resulting array is then passed to `execv()`, it is possible to leverage this attack to gain remote code execution on a victim machine. Note that a victim must first allow access to `git shell` as a login shell in order to be vulnerable to this attack. This problem is patched in versions 2.30.6, 2.31.5, 2.32.4, 2.33.5, 2.34.5, 2.35.5, 2.36.3, and 2.37.4 and users are advised to upgrade to the latest version. Disabling `git shell` access via remote logins is a viable short-term workaround.",
+					"severity": "low",
+					"packageName": "git",
+					"packageVersion": "1:2.30.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-39260",
+					"riskFactors": [
+						"Remote execution",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-19T12:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2020-36133",
+					"status": "open",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "AOM v2.0.1 was discovered to contain a global buffer overflow via the component av1/encoder/partition_search.h.",
+					"severity": "low",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-36133",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-12-02T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-36131",
+					"status": "open",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "AOM v2.0.1 was discovered to contain a stack buffer overflow via the component stats/rate_hist.c.",
+					"severity": "low",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-36131",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-12-02T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21598",
+					"status": "open",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the ff_hevc_put_unweighted_pred_8_sse function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21598",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-47655",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "Libde265 1.0.9 is vulnerable to Buffer Overflow in function void put_qpel_fallback\u003cunsigned short\u003e",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-47655",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-05T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-42919",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "Python 3.9.x before 3.9.16 and 3.10.x before 3.10.9 on Linux allows local privilege escalation in a non-default configuration. The Python multiprocessing library, when used with the forkserver start method on Linux, allows pickles to be deserialized from any user in the same machine local network namespace, which in many system configurations means any user on the same machine. Pickles can execute arbitrary code. Thus, this allows for local user privilege escalation to the user that any forkserver process is running as. Setting multiprocessing.util.abstract_sockets_supported to False is a workaround. The forkserver start method for multiprocessing is not the default start method. This issue is Linux specific because only Linux supports abstract namespace sockets. CPython before 3.9 does not make use of Linux abstract namespace sockets by default. Support for users manually specifying an abstract namespace socket was added as a bugfix in 3.7.8 and 3.8.3, but users would need to make specific uncommon API calls in order to do that in CPython before 3.9.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-42919",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-07T00:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-3715",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A flaw was found in the bash package, where a heap-buffer overflow can occur in valid parameter_transform. This issue may lead to memory problems.",
+					"severity": "low",
+					"packageName": "bash",
+					"packageVersion": "5.1-2+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3715",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-05T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2022-32547",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "In ImageMagick, there is load of misaligned address for type \\'double\\', which requires 8 byte alignment and for type \\'float\\', which requires 4 byte alignment at MagickCore/property.c. Whenever crafted or untrusted input is processed by ImageMagick, this causes a negative impact to application availability or other problems related to undefined behavior.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-32547",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-16T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-32546",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "A vulnerability was found in ImageMagick, causing an outside the range of representable values of type \\'unsigned long\\' at coders/pcl.c, when crafted or untrusted input is processed. This leads to a negative impact to application availability or other problems related to undefined behavior.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-32546",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-16T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-32545",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "A vulnerability was found in ImageMagick, causing an outside the range of representable values of type \\'unsigned char\\' at coders/psd.c, when crafted or untrusted input is processed. This leads to a negative impact to application availability or other problems related to undefined behavior.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-32545",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-16T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-29187",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "Git is a distributed revision control system. Git prior to versions 2.37.1, 2.36.2, 2.35.4, 2.34.4, 2.33.4, 2.32.3, 2.31.4, and 2.30.5, is vulnerable to privilege escalation in all platforms. An unsuspecting user could still be affected by the issue reported in CVE-2022-24765, for example when navigating as root into a shared tmp directory that is owned by them, but where an attacker could create a git repository. Versions 2.37.1, 2.36.2, 2.35.4, 2.34.4, 2.33.4, 2.32.3, 2.31.4, and 2.30.5 contain a patch for this issue. The simplest way to avoid being affected by the exploit described in the example is to avoid running git as root (or an Administrator in Windows), and if needed to reduce its use to a minimum. While a generic workaround is not possible, a system could be hardened from the exploit described in the example by removing any such repository if it exists already and creating one as root to block any future attacks.",
+					"severity": "low",
+					"packageName": "git",
+					"packageVersion": "1:2.30.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-29187",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-07-12T21:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-28463",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "ImageMagick 7.1.0-27 is vulnerable to Buffer Overflow.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-28463",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-05-08T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-24765",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "Git for Windows is a fork of Git containing Windows-specific patches. This vulnerability affects users working on multi-user machines, where untrusted parties have write access to the same hard disk. Those untrusted parties could create the folder `C:\\\\.git`, which would be picked up by Git operations run supposedly outside a repository while searching for a Git directory. Git would then respect any config in said Git directory. Git Bash users who set `GIT_PS1_SHOWDIRTYSTATE` are vulnerable as well. Users who installed posh-gitare vulnerable simply by starting a PowerShell. Users of IDEs such as Visual Studio are vulnerable: simply creating a new project would already read and respect the config specified in `C:\\\\.git\\\\config`. Users of the Microsoft fork of Git are vulnerable simply by starting a Git Bash. The problem has been patched in Git for Windows v2.35.2. Users unable to upgrade may create the folder `.git` on all drives where Git commands are run, and remove read/write access from those folders as a workaround. Alternatively, define or extend `GIT_CEILING_DIRECTORIES` to cover the _parent_ directory of the user profile, e.g. `C:\\\\Users` if the user profile is located in `C:\\\\Users\\\\my-user-name`.",
+					"severity": "low",
+					"packageName": "git",
+					"packageVersion": "1:2.30.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-24765",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-12T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-1304",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "An out-of-bounds read/write vulnerability was found in e2fsprogs 1.46.5. This issue leads to a segmentation fault and possibly arbitrary code execution via a specially crafted filesystem.",
+					"severity": "low",
+					"packageName": "e2fsprogs",
+					"packageVersion": "1.46.2-2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1304",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-14T21:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-36409",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "There is an Assertion `scaling_list_pred_matrix_id_delta==1\\' failed at sps.cc:925 in libde265 v1.0.8 when decoding file, which allows attackers to cause a Denial of Service (DoS) by running the application with a crafted file or possibly have unspecified other impact.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36409",
+					"riskFactors": [
+						"DoS",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-01-10T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-3575",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "A heap-based buffer overflow was found in openjpeg in color.c:379:42 in sycc420_to_rgb when decompressing a crafted .j2k file. An attacker could use this to execute arbitrary code with the permissions of the application compiled against openjpeg.",
+					"severity": "low",
+					"packageName": "openjpeg2",
+					"packageVersion": "2.4.0-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-3575",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-03-04T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-16156",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "CPAN 2.28 allows Signature Verification Bypass.",
+					"severity": "low",
+					"packageName": "perl",
+					"packageVersion": "5.32.1-4+deb11u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-16156",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-12-13T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2015-20107",
+					"status": "open",
+					"cvss": 7.6,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L",
+					"description": "In Python (aka CPython) up to 3.10.8, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments). The fix is also back-ported to 3.7, 3.8, 3.9",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2015-20107",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-13T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-45061",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in Python before 3.11.1. An unnecessary quadratic algorithm exists in one path when processing some inputs to the IDNA (RFC 3490) decoder, such that a crafted, unreasonably long name being presented to the decoder could lead to a CPU denial of service. Hostnames are often supplied by remote servers that could be controlled by a malicious actor; in such a scenario, they could trigger excessive CPU consumption on the client attempting to make use of an attacker-supplied supposed hostname. For example, the attack payload could be placed in the Location header of an HTTP response with status code 302. A fix is planned in 3.11.1, 3.10.9, 3.9.16, 3.8.16, and 3.7.16.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-45061",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-09T07:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-0391",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+					"description": "A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like \\'\\r\\' and \\'\\n\\' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-0391",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-02-09T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2021-3737",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in python. An improperly handled HTTP response in the HTTP client code of python may allow a remote attacker, who controls the HTTP server, to make the client script enter an infinite loop, consuming CPU time. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-3737",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-03-04T19:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2021-33560",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "Libgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. This, for example, affects use of ElGamal in OpenPGP.",
+					"severity": "low",
+					"packageName": "libgcrypt20",
+					"packageVersion": "1.8.7-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-33560",
+					"riskFactors": [
+						"Attack vector: network",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-06-08T11:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-20313",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "A flaw was found in ImageMagick in versions before 7.0.11. A potential cipher leak when the calculate signatures in TransformSignature is possible. The highest threat from this vulnerability is to data confidentiality.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20313",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-05-11T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20312",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in versions 7.0.11, where an integer overflow in WriteTHUMBNAILImage of coders/thumbnail.c may trigger undefined behavior via a crafted image file that is submitted by an attacker and processed by an application using ImageMagick. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20312",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-05-11T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20309",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in versions before 7.0.11 and before 6.9.12, where a division by zero in WaveImage() of MagickCore/visual-effects.c may trigger undefined behavior via a crafted image file submitted to an application using ImageMagick. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20309",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-05-11T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-10735",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in python. In algorithms with quadratic time complexity using non-binary bases, when using int(\\\"text\\\"), a system could take 50ms to parse an int string with 100,000 digits and 5s for 1,000,000 digits (float, decimal, int.from_bytes(), and int() for binary bases 2, 4, 8, 16, and 32 are not affected). The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-10735",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-09-09T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-29458",
+					"status": "open",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+					"description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+					"severity": "low",
+					"packageName": "ncurses",
+					"packageVersion": "6.2+20201114-2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-29458",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-18T21:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2022-1114",
+					"status": "open",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+					"description": "A heap-use-after-free flaw was found in ImageMagick\\'s RelinquishDCMInfo() function of dcm.c file. This vulnerability is triggered when an attacker passes a specially crafted DICOM image file to ImageMagick for conversion, potentially leading to information disclosure and a denial of service.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1114",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-29T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-41617",
+					"status": "open",
+					"cvss": 7,
+					"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "sshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs for AuthorizedKeysCommand and AuthorizedPrincipalsCommand may run with privileges associated with group memberships of the sshd process, if the configuration specifies running the command as a different user.",
+					"severity": "low",
+					"packageName": "openssh",
+					"packageVersion": "1:8.4p1-5+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-41617",
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-26T19:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-34526",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A stack overflow was discovered in the _TIFFVGetField function of Tiffsplit v4.4.0. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted TIFF file parsed by the \\\"tiffsplit\\\" or \\\"tiffcrop\\\" utilities.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-34526",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-07-29T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2058",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Divide By Zero error in tiffcrop in libtiff 4.4.0 allows attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit f3a5e010.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2058",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-30T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2057",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Divide By Zero error in tiffcrop in libtiff 4.4.0 allows attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit f3a5e010.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2057",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-30T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2056",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Divide By Zero error in tiffcrop in libtiff 4.4.0 allows attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit f3a5e010.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2056",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-30T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1210",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A vulnerability classified as problematic was found in LibTIFF 4.3.0. Affected by this vulnerability is the TIFF File Handler of tiff2ps. Opening a malicious file leads to a denial of service. The attack can be launched remotely but requires user interaction. The exploit has been disclosed to the public and may be used.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1210",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-03T09:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-3733",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+					"description": "There\\'s a flaw in urllib\\'s AbstractBasicAuthHandler class. An attacker who controls a malicious HTTP server that an HTTP client (such as web browser) connects to, could trigger a Regular Expression Denial of Service (ReDOS) during an authentication request with a specially crafted payload that is sent by the server to the client. The greatest threat that this flaw poses is to application availability.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-3733",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-03-10T17:42:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2021-35452",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An Incorrect Access Control vulnerability exists in libde265 v1.0.8 due to a SEGV in slice.cc.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-35452",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-01-10T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-36135",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "AOM v2.0.1 was discovered to contain a NULL pointer dereference via the component rate_hist.c.",
+					"severity": "low",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-36135",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-12-02T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-36130",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "AOM v2.0.1 was discovered to contain a NULL pointer dereference via the component av1/av1_dx_iface.c.",
+					"severity": "low",
+					"packageName": "aom",
+					"packageVersion": "1.0.0.errata1-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-36130",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-12-02T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21606",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow fault in the put_epel_16_fallback function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21606",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21605",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a segmentation fault in the apply_sao_internal function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21605",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21604",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow fault in the _mm_loadl_epi64 function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21604",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21603",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the put_qpel_0_0_fallback_16 function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21603",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21602",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the put_weighted_bipred_16_fallback function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21602",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21601",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a stack buffer overflow in the put_qpel_fallback function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21601",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21600",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the put_weighted_pred_avg_16_fallback function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21600",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21599",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the de265_image::available_zscan function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21599",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21597",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the mc_chroma function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21597",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21596",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a global buffer overflow in the decode_CABAC_bit function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21596",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21595",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the mc_luma function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21595",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2020-21594",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libde265 v1.0.4 contains a heap buffer overflow in the put_epel_hv_fallback function, which can be exploited via a crafted a file.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-21594",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-16T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2019-6988",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in OpenJPEG 2.3.0. It allows remote attackers to cause a denial of service (attempted excessive memory allocation) in opj_calloc in openjp2/opj_malloc.c, when called from opj_tcd_init_tile in openjp2/tcd.c, as demonstrated by the 64-bit opj_decompress.",
+					"severity": "low",
+					"packageName": "openjpeg2",
+					"packageVersion": "2.4.0-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-6988",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-01-28T16:29:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2019-6462",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in cairo 1.16.0. There is an infinite loop in the function _arc_error_normalized in the file cairo-arc.c, related to _arc_max_angle_for_tolerance_normalized.",
+					"severity": "low",
+					"packageName": "cairo",
+					"packageVersion": "1.16.0-5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-6462",
+					"riskFactors": [
+						"Attack vector: network",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-01-16T18:29:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2019-6461",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in cairo 1.16.0. There is an assertion problem in the function _cairo_arc_in_direction in the file cairo-arc.c.",
+					"severity": "low",
+					"packageName": "cairo",
+					"packageVersion": "1.16.0-5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-6461",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-01-16T18:29:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2018-18064",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "cairo through 1.15.14 has an out-of-bounds stack-memory write during processing of a crafted document by WebKitGTK+ because of the interaction between cairo-rectangular-scan-converter.c (the generate and render_rows functions) and cairo-image-compositor.c (the _cairo_image_spans_and_zero function).",
+					"severity": "low",
+					"packageName": "cairo",
+					"packageVersion": "1.16.0-5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2018-18064",
+					"riskFactors": [
+						"Attack vector: network",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2018-10-08T18:29:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2016-2781",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+					"description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal\\'s input buffer.",
+					"severity": "low",
+					"packageName": "coreutils",
+					"packageVersion": "8.32-4",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2016-2781",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2017-02-07T15:59:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2022-1355",
+					"status": "open",
+					"cvss": 6.1,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+					"description": "A stack buffer overflow flaw was found in Libtiffs\\' tiffcp.c in main() function. This flaw allows an attacker to pass a crafted TIFF file to the tiffcp tool, triggering a stack buffer overflow issue, possibly corrupting the memory, and causing a crash that leads to a denial of service.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1355",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-31T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-31879",
+					"status": "open",
+					"cvss": 6.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+					"description": "GNU Wget through 1.21.1 does not omit the Authorization header upon a redirect to a different origin, a related issue to CVE-2018-1000007.",
+					"severity": "low",
+					"packageName": "wget",
+					"packageVersion": "1.21-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-31879",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-04-29T05:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:10Z"
+				},
+				{
+					"id": "CVE-2016-3709",
+					"status": "open",
+					"cvss": 6.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+					"description": "Possible cross-site scripting vulnerability in libxml after commit 960f0e2.",
+					"severity": "low",
+					"packageName": "libxml2",
+					"packageVersion": "2.9.10+dfsg-6.7+deb11u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2016-3709",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-07-28T17:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-3426",
+					"status": "open",
+					"cvss": 5.7,
+					"vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+					"description": "There\\'s a flaw in Python 3\\'s pydoc. A local or adjacent attacker who discovers or is able to convince another local or adjacent user to start a pydoc server could access the server and use it to disclose sensitive information belonging to the other user that they would not normally be able to access. The highest risk of this flaw is to data confidentiality. This flaw affects Python versions before 3.8.9, Python versions before 3.9.3 and Python versions before 3.10.0a7.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-3426",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-05-20T13:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-4415",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+					"description": "A vulnerability was found in systemd. This security flaw can cause a local information leak due to systemd-coredump not respecting the fs.suid_dumpable kernel setting.",
+					"severity": "low",
+					"packageName": "systemd",
+					"packageVersion": "247.3-7+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-4415",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-11T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2022-39253",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+					"description": "Git is an open source, scalable, distributed revision control system. Versions prior to 2.30.6, 2.31.5, 2.32.4, 2.33.5, 2.34.5, 2.35.5, 2.36.3, and 2.37.4 are subject to exposure of sensitive information to a malicious actor. When performing a local clone (where the source and target of the clone are on the same volume), Git copies the contents of the source\\'s `$GIT_DIR/objects` directory into the destination by either creating hardlinks to the source contents, or copying them (if hardlinks are disabled via `--no-hardlinks`). A malicious actor could convince a victim to clone a repository with a symbolic link pointing at sensitive information on the victim\\'s machine. This can be done either by having the victim clone a malicious repository on the same machine, or having them clone a malicious repository embedded as a bare repository via a submodule from any source, provided they clone with the `--recurse-submodules` option. Git does not create symbolic links in the `$GIT_DIR/objects` directory. The problem has been patched in the versions published on 2022-10-18, and backported to v2.30.x. Potential workarounds: Avoid cloning untrusted repositories using the `--local` optimization when on a shared machine, either by passing the `--no-local` option to `git clone` or cloning from a URL that uses the `file://` scheme. Alternatively, avoid cloning repositories from untrusted source",
+					"severity": "low",
+					"packageName": "git",
+					"packageVersion": "1:2.30.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-39253",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-10-19T11:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-3821",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An off-by-one Error issue was discovered in Systemd in format_timespan() function of time-util.c. An attacker could supply specific values for time and accuracy that leads to buffer overrun in format_timespan(), leading to a Denial of Service.",
+					"severity": "low",
+					"packageName": "systemd",
+					"packageVersion": "247.3-7+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3821",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-11-08T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2022-33068",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An integer overflow in the component hb-ot-shape-fallback.cc of Harfbuzz v4.3.0 allows attackers to cause a Denial of Service (DoS) via unspecified vectors.",
+					"severity": "low",
+					"packageName": "harfbuzz",
+					"packageVersion": "2.7.4-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-33068",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-23T17:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-3213",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A heap buffer overflow issue was found in ImageMagick. When an application processes a malformed TIFF file, it could lead to undefined behavior or a crash causing a denial of service.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3213",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-09-19T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2869",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libtiff\\'s tiffcrop tool has a uint32_t underflow which leads to out of bounds read and write in the extractContigSamples8bits routine. An attacker who supplies a crafted file to tiffcrop could trigger this flaw, most likely by tricking a user into opening the crafted file with tiffcrop. Triggering this flaw could cause a crash or potentially further exploitation.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2869",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-17T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2868",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libtiff\\'s tiffcrop utility has a improper input validation flaw that can lead to out of bounds read and ultimately cause a crash if an attacker is able to supply a crafted file to tiffcrop.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2868",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-17T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2867",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "libtiff\\'s tiffcrop utility has a uint32_t underflow that can lead to out of bounds read and write. An attacker who supplies a crafted file to tiffcrop (likely via tricking a user to run tiffcrop on it with certain parameters) could cause a crash or in some cases, further exploitation.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2867",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-17T22:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1623",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF master branch has an out-of-bounds read in LZWDecode in libtiff/tif_lzw.c:624, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit b4e79bfa.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1623",
+					"riskFactors": [
+						"DoS",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-05-11T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1622",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "LibTIFF master branch has an out-of-bounds read in LZWDecode in libtiff/tif_lzw.c:619, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit b4e79bfa.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1622",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-05-11T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1354",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A heap buffer overflow flaw was found in Libtiffs\\' tiffinfo.c in TIFFReadRawDataStriped() function. This flaw allows an attacker to pass a crafted TIFF file to the tiffinfo tool, triggering a heap buffer overflow issue and causing a crash that leads to a denial of service.",
+					"severity": "low",
+					"packageName": "tiff",
+					"packageVersion": "4.2.0-1+deb11u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1354",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-31T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1122",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in the opj2_decompress program in openjpeg2 2.4.0 in the way it handles an input directory with a large number of files. When it fails to allocate a buffer to store the filenames of the input directory, it calls free() on an uninitialized pointer, leading to a segmentation fault and a denial of service.",
+					"severity": "low",
+					"packageName": "openjpeg2",
+					"packageVersion": "2.4.0-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1122",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-03-29T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-1115",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A heap-buffer-overflow flaw was found in ImageMagick’s PushShortPixel() function of quantum-private.h file. This vulnerability is triggered when an attacker passes a specially crafted TIFF image file to ImageMagick for conversion, potentially leading to a denial of service.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1115",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-29T15:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-46822",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "The PPM reader in libjpeg-turbo through 2.0.90 mishandles use of tjLoadImage for loading a 16-bit binary PPM file into a grayscale buffer and loading a 16-bit binary PGM file into an RGB buffer. This is related to a heap-based buffer overflow in the get_word_rgb_row function in rdppm.c.",
+					"severity": "low",
+					"packageName": "libjpeg-turbo",
+					"packageVersion": "1:2.0.6-4",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-46822",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-18T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-4219",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick. The vulnerability occurs due to improper use of open functions and leads to a denial of service. This flaw allows an attacker to crash the system.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-4219",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-03-23T20:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-36411",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An issue has been found in libde265 v1.0.8 due to incorrect access control. A SEGV caused by a READ memory access in function derive_boundaryStrength of deblock.cc has occurred. The vulnerability causes a segmentation fault and application crash, which leads to remote denial of service.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36411",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-01-10T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-36410",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A stack-buffer-overflow exists in libde265 v1.0.8 via fallback-motion.cc in function put_epel_hv_fallback when running program dec265.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36410",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-01-10T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-36408",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in libde265 v1.0.8.There is a Heap-use-after-free in intrapred.h when decoding file using dec265.",
+					"severity": "low",
+					"packageName": "libde265",
+					"packageVersion": "1.0.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36408",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-01-10T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-29338",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Integer Overflow in OpenJPEG v2.4.0 allows remote attackers to crash the application, causing a Denial of Service (DoS). This occurs when the attacker uses the command line option \\\"-ImgDir\\\" on a directory that contains 1048576 files.",
+					"severity": "low",
+					"packageName": "openjpeg2",
+					"packageVersion": "2.4.0-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-29338",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-04-14T14:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20246",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in MagickCore/resample.c. An attacker who submits a crafted file that is processed by ImageMagick could trigger undefined behavior in the form of math division by zero. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20246",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-03-09T19:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20245",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in coders/webp.c. An attacker who submits a crafted file that is processed by ImageMagick could trigger undefined behavior in the form of math division by zero. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20245",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-03-09T19:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20244",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in MagickCore/visual-effects.c. An attacker who submits a crafted file that is processed by ImageMagick could trigger undefined behavior in the form of math division by zero. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20244",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-03-09T19:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20243",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in MagickCore/resize.c. An attacker who submits a crafted file that is processed by ImageMagick could trigger undefined behavior in the form of math division by zero. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20243",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-03-09T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-20241",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in ImageMagick in coders/jp2.c. An attacker who submits a crafted file that is processed by ImageMagick could trigger undefined behavior in the form of math division by zero. The highest threat from this vulnerability is to system availability.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-20241",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-03-09T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2017-7475",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Cairo version 1.15.4 is vulnerable to a NULL pointer dereference related to the FT_Load_Glyph and FT_Render_Glyph resulting in an application crash.",
+					"severity": "low",
+					"packageName": "cairo",
+					"packageVersion": "1.16.0-5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2017-7475",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2017-11-15T00:00:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-2097",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn\\'t written. In the special case of \\\"in place\\\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
+					"severity": "low",
+					"packageName": "openssl",
+					"packageVersion": "1.1.1n-0+deb11u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2097",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-07-05T11:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-4189",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "A flaw was found in Python, specifically in the FTP (File Transfer Protocol) client library in PASV (passive) mode. The issue is how the FTP client trusts the host from the PASV response by default. This flaw allows an attacker to set up a malicious FTP server that can trick FTP clients into connecting back to a given IP address and port. This vulnerability could lead to FTP client scanning ports, which otherwise would not have been possible.",
+					"severity": "low",
+					"packageName": "python3.9",
+					"packageVersion": "3.9.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-4189",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-24T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2021-39212",
+					"status": "open",
+					"cvss": 3.6,
+					"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+					"description": "ImageMagick is free software delivered as a ready-to-run binary distribution or as source code that you may use, copy, modify, and distribute in both open and proprietary applications. In affected versions and in certain cases, Postscript files could be read and written when specifically excluded by a `module` policy in `policy.xml`. ex. \u003cpolicy domain=\\\"module\\\" rights=\\\"none\\\" pattern=\\\"PS\\\" /\u003e. The issue has been resolved in ImageMagick 7.1.0-7 and in 6.9.12-22. Fortunately, in the wild, few users utilize the `module` policy and instead use the `coder` policy that is also our workaround recommendation: \u003cpolicy domain=\\\"coder\\\" rights=\\\"none\\\" pattern=\\\"{PS,EPI,EPS,EPSF,EPSI}\\\" /\u003e.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-39212",
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-13T18:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2021-36087",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a heap-based buffer over-read in ebitmap_match_any (called indirectly from cil_check_neverallow). This occurs because there is sometimes a lack of checks for invalid statements in an optional block.",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "3.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36087",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-36086",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a use-after-free in cil_reset_classpermission (called from cil_reset_classperms_set and cil_reset_classperms_list).",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "3.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36086",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-36085",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "3.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36085",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-36084",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "3.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36084",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T02:34:29Z"
+				},
+				{
+					"id": "CVE-2021-3574",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+					"description": "A vulnerability was found in ImageMagick-7.0.11-5, where executing a crafted file with the convert command, ASAN detects memory leaks.",
+					"severity": "low",
+					"packageName": "imagemagick",
+					"packageVersion": "8:6.9.11.60+dfsg-1.3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-3574",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-26T16:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:05:32Z"
+				},
+				{
+					"id": "CVE-2022-43552",
+					"status": "open",
+					"description": "DOCUMENTATION: A vulnerability was found in curl. In this issue, curl can be asked to tunnel all protocols virtually it supports through an HTTP proxy. HTTP proxies can deny these tunnel operations using an appropriate HTTP error response code. When getting denied to tunnel the specific SMB or TELNET protocols, curl can use a heap-allocated struct after it has been freed and shut down the code path in its transfer.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.74.0-1.3+deb11u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-43552",
+					"riskFactors": [
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-12-21T00:00:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:10Z"
+				},
+				{
+					"id": "CVE-2022-41903",
+					"status": "open",
+					"description": "Git is distributed revision control system. `git log` can display commits in an arbitrary format using its `--format` specifiers. This functionality is also exposed to `git archive` via the `export-subst` gitattribute. When processing the padding operators, there is a integer overflow in `pretty.c::format_and_pad_commit()` where a `size_t` is stored improperly as an `int`, and then added as an offset to a `memcpy()`. This overflow can be triggered directly by a user running a command which invokes the commit formatting machinery (e.g., `git log --format=...`). It may also be triggered indirectly through git archive via the export-subst mechanism, which expands format specifiers inside of files within the repository during a git archive. This integer overflow can result in arbitrary heap writes, which may result in arbitrary code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. Users who are unable to upgrade should disable `git archive` in untrusted repositories. If you expose git archive via `git daemon`, disable it by running `git config --global daemon.uploadArch false`.",
+					"severity": "low",
+					"packageName": "git",
+					"packageVersion": "1:2.30.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-41903",
+					"riskFactors": [
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-17T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				},
+				{
+					"id": "CVE-2022-23521",
+					"status": "open",
+					"description": "Git is distributed revision control system. gitattributes are a mechanism to allow defining attributes for paths. These attributes can be defined by adding a `.gitattributes` file to the repository, which contains a set of file patterns and the attributes that should be set for paths matching this pattern. When parsing gitattributes, multiple integer overflows can occur when there is a huge number of path patterns, a huge number of attributes for a single pattern, or when the declared attribute names are huge. These overflows can be triggered via a crafted `.gitattributes` file that may be part of the commit history. Git silently splits lines longer than 2KB when parsing gitattributes from a file, but not when parsing them from the index. Consequentially, the failure mode depends on whether the file exists in the working tree, the index or both. This integer overflow can result in arbitrary heap reads and writes, which may result in remote code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. There are no known workarounds for this issue.",
+					"severity": "low",
+					"packageName": "git",
+					"packageVersion": "1:2.30.2-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-23521",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Remote execution"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-17T23:15:00Z",
+					"discoveredDate": "2023-01-20T19:53:43Z",
+					"layerTime": "2023-01-11T03:04:36Z"
+				}
+			],
+			"vulnerabilityDistribution": {
+				"critical": 4,
+				"high": 5,
+				"medium": 22,
+				"low": 98,
+				"total": 129
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "2023-01-11T02:34:29Z",
+					"instruction": "ADD file:917750a82b29f8f7f88a121017bd9dfeb0fbcc8f0697a009f08b6b58246eff4b in / "
+				},
+				{
+					"created": "2023-01-11T02:34:30Z",
+					"instruction": "CMD [\"bash\"]"
+				},
+				{
+					"created": "2023-01-11T03:04:10Z",
+					"instruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tcurl \t\tnetbase \t\twget \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"created": "2023-01-11T03:04:16Z",
+					"instruction": "RUN set -ex; \tif ! command -v gpg \u003e /dev/null; then \t\tapt-get update; \t\tapt-get install -y --no-install-recommends \t\t\tgnupg \t\t\tdirmngr \t\t; \t\trm -rf /var/lib/apt/lists/*; \tfi"
+				},
+				{
+					"created": "2023-01-11T03:04:36Z",
+					"instruction": "RUN apt-get update \u0026\u0026 apt-get install -y --no-install-recommends \t\tgit \t\tmercurial \t\topenssh-client \t\tsubversion \t\t\t\tprocps \t\u0026\u0026 rm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"created": "2023-01-11T03:05:32Z",
+					"instruction": "RUN set -ex; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tautoconf \t\tautomake \t\tbzip2 \t\tdpkg-dev \t\tfile \t\tg++ \t\tgcc \t\timagemagick \t\tlibbz2-dev \t\tlibc6-dev \t\tlibcurl4-openssl-dev \t\tlibdb-dev \t\tlibevent-dev \t\tlibffi-dev \t\tlibgdbm-dev \t\tlibglib2.0-dev \t\tlibgmp-dev \t\tlibjpeg-dev \t\tlibkrb5-dev \t\tliblzma-dev \t\tlibmagickcore-dev \t\tlibmagickwand-dev \t\tlibmaxminddb-dev \t\tlibncurses5-dev \t\tlibncursesw5-dev \t\tlibpng-dev \t\tlibpq-dev \t\tlibreadline-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibtool \t\tlibwebp-dev \t\tlibxml2-dev \t\tlibxslt-dev \t\tlibyaml-dev \t\tmake \t\tpatch \t\tunzip \t\txz-utils \t\tzlib1g-dev \t\t\t\t$( \t\t\tif apt-cache show 'default-libmysqlclient-dev' 2\u003e/dev/null | grep -q '^Version:'; then \t\t\t\techo 'default-libmysqlclient-dev'; \t\t\telse \t\t\t\techo 'libmysqlclient-dev'; \t\t\tfi \t\t) \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"created": "2023-01-11T06:34:27Z",
+					"instruction": "RUN groupadd --gid 1000 node   \u0026\u0026 useradd --uid 1000 --gid node --shell /bin/bash --create-home node"
+				},
+				{
+					"created": "2023-01-11T06:36:58Z",
+					"instruction": "ENV NODE_VERSION=18.13.0"
+				},
+				{
+					"created": "2023-01-11T06:37:12Z",
+					"instruction": "RUN ARCH= \u0026\u0026 dpkgArch=\"$(dpkg --print-architecture)\"   \u0026\u0026 case \"${dpkgArch##*-}\" in     amd64) ARCH='x64';;     ppc64el) ARCH='ppc64le';;     s390x) ARCH='s390x';;     arm64) ARCH='arm64';;     armhf) ARCH='armv7l';;     i386) ARCH='x86';;     *) echo \"unsupported architecture\"; exit 1 ;;   esac   \u0026\u0026 set -ex   \u0026\u0026 for key in     4ED778F539E3634C779C87C6D7062848A1AB005C     141F07595B7B3FFE74309A937405533BE57C7D57     74F12602B6F1C4E913FAA37AD3A89613643B6201     61FC681DFB92A079F1685E77973F295594EC4689     8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600     C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8     890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4     C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C     108F52B48DB57BB0CC439B2997B01419BD92F80A   ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;   done   \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH.tar.xz\"   \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"   \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc   \u0026\u0026 grep \" node-v$NODE_VERSION-linux-$ARCH.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -   \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner   \u0026\u0026 rm \"node-v$NODE_VERSION-linux-$ARCH.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt   \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"created": "2023-01-11T06:37:12Z",
+					"instruction": "ENV YARN_VERSION=1.22.19"
+				},
+				{
+					"created": "2023-01-11T06:37:16Z",
+					"instruction": "RUN set -ex   \u0026\u0026 for key in     6A010C5166006599AA17F08146C2130DFD2497F5   ; do     gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||     gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;   done   \u0026\u0026 curl -fsSLO --compressed \"https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz\"   \u0026\u0026 curl -fsSLO --compressed \"https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz.asc\"   \u0026\u0026 gpg --batch --verify yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz   \u0026\u0026 mkdir -p /opt   \u0026\u0026 tar -xzf yarn-v$YARN_VERSION.tar.gz -C /opt/   \u0026\u0026 ln -s /opt/yarn-v$YARN_VERSION/bin/yarn /usr/local/bin/yarn   \u0026\u0026 ln -s /opt/yarn-v$YARN_VERSION/bin/yarnpkg /usr/local/bin/yarnpkg   \u0026\u0026 rm yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz   \u0026\u0026 yarn --version"
+				},
+				{
+					"created": "2023-01-11T06:37:16Z",
+					"instruction": "COPY file:4d192565a7220e135cab6c77fbc1c73211b69f3d9fb37e62857b2c6eb9363d51 in /usr/local/bin/ "
+				},
+				{
+					"created": "2023-01-11T06:37:16Z",
+					"instruction": "ENTRYPOINT [\"docker-entrypoint.sh\"]"
+				},
+				{
+					"created": "2023-01-11T06:37:16Z",
+					"instruction": "CMD [\"node\"]"
+				}
+			],
+			"scanTime": "2023-01-20T19:54:44.774833711Z",
+			"scanID": "63caf184f359ed4732e3d88a"
+		}
+	],
+	"consoleURL": "https://app3.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ab68a472583efc83662785c5c6eb325c13b6662a3b421e7d78943e210efe3b254"
+}
